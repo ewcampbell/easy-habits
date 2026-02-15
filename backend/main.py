@@ -8,7 +8,7 @@ def root():
     return {
         "status": "ok",
         "message": "Easy Habits API is running",
-        "timestamp": datetime.timezone.utc()
+        "timestamp": datetime.utcnow()
     }
 
 @app.get("/health")
