@@ -1,3 +1,8 @@
+"""
+Application entry point. Initializes the FastAPI app, configures middleware,
+and registers all route modules.
+"""
+
 from fastapi import FastAPI
 from datetime import datetime
 from routes import auth, habits, sharing
